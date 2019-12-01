@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/judulgan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="TopUp BoCash"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/limaribu"
+        android:layout_width="165dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="70dp"
+        android:onClick="setLimaribu"
+        android:text="Rp. 5.000" />
+
+    <Button
+        android:id="@+id/sepuluhribu"
+        android:layout_width="165dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="70dp"
+        android:onClick="setSepuluhribu"
+        android:text="Rp. 10.000" />
+
+    <Button
+        android:id="@+id/duapuluhribu"
+        android:layout_width="165dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="180dp"
+        android:onClick="setDuapuluhribu"
+        android:text="Rp. 20.000" />
+
+    <Button
+        android:id="@+id/limapuluhribu"
+        android:layout_width="165dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="180dp"
+        android:onClick="setLimapuluhribu"
+        android:text="Rp. 50.000" />
+
+    <Button
+        android:id="@+id/seratusribu"
+        android:layout_width="165dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="290dp"
+        android:onClick="setSeratusribu"
+        android:text="Rp. 100.000" />
+
+    <Button
+        android:id="@+id/duaratusribu"
+        android:layout_width="165dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="290dp"
+        android:onClick="setDuaratusribu"
+        android:text="Rp. 200.000" />
+
+    <Button
+        android:id="@+id/limaratusribu"
+        android:layout_width="165dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="400dp"
+        android:onClick="setLimaratusribu"
+        android:text="Rp. 500.000" />
+
+    <Button
+        android:id="@+id/satujuta"
+        android:layout_width="165dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="400dp"
+        android:onClick="setSatujuta"
+        android:text="Rp. 1000.000" />
+
+</RelativeLayout>

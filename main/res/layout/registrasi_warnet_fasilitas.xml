@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registrasi_Warnet_Fasilitas"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/back"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/back"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:text="Registrasi Warnet"
+            android:layout_marginEnd="35dp"
+            />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alamat Warnet"
+        android:inputType="text"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:id="@+id/namawarnet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NamaWarnet"
+        android:inputType="text"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="18sp"
+            android:layout_marginStart="5dp"
+            android:text="Rp. "/>
+        <EditText
+            android:id="@+id/hargaperjam"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="Harga/Jam"
+            android:layout_centerVertical="true"
+            android:inputType="number"
+            android:layout_marginStart="35dp"/>
+        <EditText
+            android:id="@+id/jambuka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="120dp"
+            android:maxLength="2"
+            android:hint="Jam Buka"
+            android:inputType="number"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="105dp"
+            android:text="-"
+            android:textSize="36sp"/>
+        <EditText
+            android:id="@+id/jamtutup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:maxLength="2"
+            android:hint="Jam Tutup"
+            android:inputType="number"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:text="Spesifikasi PC"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/banyak"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:hint="Banyak PC Tersedia"
+            android:inputType="number" />
+    </RelativeLayout>
+    <EditText
+        android:id="@+id/processor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Processor"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/vga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="VGA"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:id="@+id/ram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="RAM"
+        android:maxLength="3"
+        android:inputType="number"/>
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textSize="18sp"
+       android:text="Game yang tersedia"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:id="@+id/dota"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dota 2"/>
+        <CheckBox
+            android:id="@+id/csgo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:text="Counter Strike Global Offensive"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:id="@+id/pubg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PUBG"/>
+        <CheckBox
+            android:id="@+id/tf2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:text="Team Fortress 2"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:id="@+id/fortnite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fortnite"/>
+        <CheckBox
+            android:id="@+id/lol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:text="League of Legend"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:id="@+id/rocket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rocket League"/>
+        <CheckBox
+            android:id="@+id/overwatch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:text="Overwatch"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:id="@+id/pb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Point Blank"/>
+        <CheckBox
+            android:id="@+id/dn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:text="Dragon Nest"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:id="@+id/ls"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lost Saga"/>
+        <CheckBox
+            android:id="@+id/ayodance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:text="Ayo Dance"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <Button
+            android:id="@+id/registrasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrasi"/>
+        <ImageView
+            android:id="@+id/gambarpenandasemua"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:elevation="5dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/redemailsign"/>
+    </RelativeLayout>
+
+</LinearLayout>

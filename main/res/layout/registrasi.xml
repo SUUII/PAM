@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registrasi_User"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/back"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/back"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:text="@string/Selamat_Datang"
+            android:layout_marginEnd="35dp"
+            />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:inputType="text"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:id="@+id/email"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="10dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Password"
+            android:inputType="textPassword"
+            android:layout_marginBottom="10dp"/>
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/hide"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/hide" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/passwordulang"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ulangi Memasukan Password"
+            android:inputType="textPassword"
+            android:layout_marginBottom="10dp"/>
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/hide2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/hide"/>
+    </RelativeLayout>
+    <EditText
+        android:id="@+id/namapengguna"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Pengguna"
+        android:inputType="text"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:id="@+id/nomerhp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nomer HP"
+        android:inputType="number"
+        android:layout_marginBottom="10dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <Button
+            android:id="@+id/registrasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrasi"/>
+        <ImageView
+            android:id="@+id/gambarpenandasemua"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:elevation="5dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/redemailsign"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:gravity="center|bottom"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/pemilikwarnet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:text="pemilik warnet? registrasikan sekarang \nklik disini"/>
+    </LinearLayout>
+
+</LinearLayout>

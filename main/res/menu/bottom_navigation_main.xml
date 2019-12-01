@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app='http://schemas.android.com/apk/res-auto'>
+
+    <item
+        android:id="@+id/action_add"
+        android:enabled="true"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Cari Warnet"
+        app:showAsAction="ifRoom"
+        android:onClick="menu1"
+        />
+    <item
+        android:id="@+id/action_edit"
+        android:enabled="true"
+        android:title="TopUp Bocash"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        app:showAsAction="ifRoom"
+        android:onClick="menu2"
+        />
+    <item
+        android:id="@+id/action_remove"
+        android:enabled="true"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Akun"
+        app:showAsAction="ifRoom"
+        android:onClick="menu3"
+        />
+</menu>
